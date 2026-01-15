@@ -66,11 +66,13 @@ $
     0.3 \, quad quad 25 < x lt.eq 75,
     0.54 \, quad space space 75 < x lt.eq 125,
     0.72 \, quad 125 < x lt.eq 175,
-    0.86 \, quad space 175 < x lt.eq 225,
-    0.94 \, quad space 225 < x lt.eq 275,
-    1\, quad quad quad quad space space x > 275
+    0.86 \, quad 175 < x lt.eq 225,
+    0.94 \, quad 225 < x lt.eq 275,
+    1\, quad quad quad quad quad x > 275
   )
 $
+
+#image("images/03.png")
 
 == Определить числовые характеристики вариационного ряда: $overline(x), S^2, S, limits(sigma^2)^~, limits(sigma)$
 == Предполагая нормальным распределение генеральной совокупности, построить доверительные интервалы надежности $0.95$ и $0.99$ для параметров нормального распределения.
