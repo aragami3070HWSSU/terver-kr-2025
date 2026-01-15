@@ -52,5 +52,25 @@
 
 == Записать эмпирическую функцию распределения и построить её график
 
+$
+  limits(F_n)^~ = cases(
+    0\, quad quad quad quad quad x lt.eq 25,
+    15 / 50\, quad quad 25 < x lt.eq 75,
+    27 / 50\, quad quad 75 < x lt.eq 125,
+    36 / 50\, quad space 125 < x lt.eq 175,
+    43 / 50\, quad space 175 < x lt.eq 225,
+    47 / 50\, quad space 225 < x lt.eq 275,
+    1\, quad quad quad quad space space x > 275
+  ) = cases(
+    0 \, quad quad quad quad quad x lt.eq 25,
+    0.3 \, quad quad 25 < x lt.eq 75,
+    0.54 \, quad space space 75 < x lt.eq 125,
+    0.72 \, quad 125 < x lt.eq 175,
+    0.86 \, quad space 175 < x lt.eq 225,
+    0.94 \, quad space 225 < x lt.eq 275,
+    1\, quad quad quad quad space space x > 275
+  )
+$
+
 == Определить числовые характеристики вариационного ряда: $overline(x), S^2, S, limits(sigma^2)^~, limits(sigma)$
 == Предполагая нормальным распределение генеральной совокупности, построить доверительные интервалы надежности $0.95$ и $0.99$ для параметров нормального распределения.
